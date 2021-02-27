@@ -268,7 +268,7 @@ footer {
 }
 
 .social {
-    text-align: right;
+    text-align: center;
 
     ul {
         margin: 5px 0 0 0;
@@ -283,7 +283,7 @@ footer {
 
     a {
         display: block;
-        color: $text;
+        color: #fff;
         padding: 10px;
 
         &:hover {
