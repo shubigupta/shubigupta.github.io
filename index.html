@@ -161,10 +161,10 @@
                         <ul>
                         <li align = 'justify'>
                             Implemented a single-stage instance segmentation pipeline "Segmenting Objects by Location" as part of course CIS 680: Advanced 
-                            Machine Perception, MAP value achieved: 0.46
+                            Machine Perception, <b>MAP value achieved: 0.46</b>
                         </li>
                         <li align = 'justify'>
-                            Dataset: Subset of COCO dataset with 10,000 images comprising of People, Vehicles, and Animals
+                            <b>Dataset:</b> Subset of COCO dataset with 10,000 images comprising of People, Vehicles, and Animals
                         </li>
                         <li align = 'justify'>
                             Backbone used: RESNET 50 FPN
@@ -175,6 +175,37 @@
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Object Detection</h3>
+                        <ul>
+                            <li align = 'justify'>
+                                <b>Faster RCNN:</b> a two-stage RCNN based object classifier, <b>MAP value achieved: 0.76</b>
+                                <ul>
+                                    <li><b>Dataset</b>: Subset of COCO dataset with 10,000 images comprising of People, Vehicles, and Animals</li>
+                                    <li>Trained a lighter version of backbone and Region Proposal Network for the first stage and box regresor and classifier for the second stage</li>
+                                    <li>Backbone used for second stage: RESNET 50 FPN</li> 
+                                </ul>
+                            </li>
+                            <li align = 'justify'>
+                                <b>YOLO</b>: You Only Look Once, <b>MAP Value achieved: 0.46</b>
+                                <ul>
+                                    <li><b>Dataset:</b> 10,000 street scene images with pedestrians, cars, and traffic lights labels</li>
+                                    <li>Implemented the whole pipeline from scratch and compared the performance of classifier in case of different targets for confidence loss</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="https://github.com/shubigupta/Faster-RCNN">Faster RCNN</a> <a href="https://github.com/shubigupta/YOLO">YOLO</a>  
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
 
                 <div class="project shadow-large">
                     <div class="project-image">
